@@ -3,10 +3,11 @@ using UnityEngine;
 public class Fish : MonoBehaviour
 {
     [SerializeField] private int health = 3;
-    private float speed = 50;
+    private Rigidbody2D rb;
+    public float flyForce = 200f;
     void Start()
     {
-
+        rb = GetComponent<Rigidbody2D>();
     }
 
     void Update()
@@ -19,7 +20,8 @@ public class Fish : MonoBehaviour
     {
         if (Input.GetMouseButtonDown(0))
         {
-            transform.position = transform.position + new Vector3(0f, (speed * Time.deltaTime), 0f);
+            rb.velocity = Vector2.zero;
+            rb.AddForce(Vector2.up * flyForce);
         }
     }
 
