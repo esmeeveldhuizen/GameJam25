@@ -8,4 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Dev/Esmee/Scenes/WelcomePage.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/_Project/Dev/Esmee/Scenes/Scene2.unity
+    guid: b0d417a6aa3859e43822369ba3e83497
   m_configObjects: {}
