@@ -3,7 +3,7 @@ using UnityEngine;
 public class Fish : MonoBehaviour
 {
     private Rigidbody2D rb;
-    private float flyForce = 100f;
+    private float flyForce = 200f;
     [SerializeField] private GameObject floppyFish;
     void Start()
     {
