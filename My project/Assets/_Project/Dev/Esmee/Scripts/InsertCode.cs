@@ -6,7 +6,7 @@ public class InsertCode : MonoBehaviour
     public TMP_InputField input;
     private string answer = "8008";
 
-    void Update()
+    public void CheckAnswer()
     {
         string inputText = input.text;
 
