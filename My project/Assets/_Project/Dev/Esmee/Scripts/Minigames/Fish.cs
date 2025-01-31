@@ -2,9 +2,9 @@ using UnityEngine;
 
 public class Fish : MonoBehaviour
 {
-    [SerializeField] private int health = 3;
     private Rigidbody2D rb;
-    public float flyForce = 200f;
+    public float flyForce = 100f;
+    [SerializeField] private GameObject floppyFish;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -12,7 +12,6 @@ public class Fish : MonoBehaviour
 
     void Update()
     {
-        CheckHealth();
         Fly();
     }
 
@@ -25,21 +24,9 @@ public class Fish : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        health--;
+        floppyFish.SetActive(false);
     }
 
-    private void GameOver()
-    {
-
-    }
-
-    private void CheckHealth()
-    {
-        if (health >= 0)
-        {
-            GameOver();
-        }
-    }
 }
