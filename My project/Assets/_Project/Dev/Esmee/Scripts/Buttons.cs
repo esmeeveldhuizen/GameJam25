@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MouseClick : MonoBehaviour
+public class Buttons : MonoBehaviour
 {
     void Start()
     {
