@@ -26,4 +26,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/Dev/Matt/Scene's/Scene5.unity
     guid: 9abac2c813bc06042a05c289eee4d728
+  - enabled: 1
+    path: Assets/_Project/Dev/Matt/Scene's/Scene2-1.unity
+    guid: 3d0e72300582a674cb765fcd2f961616
+  - enabled: 1
+    path: Assets/_Project/Dev/Matt/Scene's/Scene2-1-1.unity
+    guid: ce978bfe6f3f64d459279dc2cb6935f4
   m_configObjects: {}
