@@ -15,7 +15,7 @@ public class SceneOrder : MonoBehaviour
     }
     public void Scene2()
     {
-        SceneManager.LoadScene("AqueHistory");
+        SceneManager.LoadScene("AquaHistory");
     }
     public void Scene3()
     {
