@@ -41,4 +41,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/GAME/AndereWebsite/FishGame.unity
     guid: 1cb20db294a83934b9d7c9f50dec42d4
+  - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/FishWikis/Fish1.unity
+    guid: 028a6248810413c4c8c7cb45c3ae08de
+  - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/FishWikis/Fish2.unity
+    guid: 551ee38b1bbd3414599556cfc3e718f7
+  - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/FishWikis/Fish3.unity
+    guid: 1a78fed59b5a4f14c9e840972b1eb6d2
+  - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/FishWikis/Fish4.unity
+    guid: 10e95ee1eaae036478977d5004e5e39a
+  - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/FishWikis/Fish5.unity
+    guid: 0bb193068e87ce84b9a2baf033634b73
   m_configObjects: {}
