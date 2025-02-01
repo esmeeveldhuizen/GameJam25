@@ -1,10 +1,11 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Fish : MonoBehaviour
 {
     private Rigidbody2D rb;
     private float flyForce = 200f;
-    [SerializeField] private GameObject floppyFish;
+    [SerializeField] private GameObject homeButton;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -26,7 +27,10 @@ public class Fish : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        floppyFish.SetActive(false);
+        homeButton.SetActive(true);
     }
-
+    public void GoBack()
+    {
+        SceneManager.LoadScene("FishPage");
+    }
 }

@@ -45,6 +45,9 @@ EditorBuildSettings:
     path: Assets/_Project/GAME/AndereWebsite/FishGame.unity
     guid: 1cb20db294a83934b9d7c9f50dec42d4
   - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/FloppyFish.unity
+    guid: 31a88f57da26885488d1902cfcf6e8bc
+  - enabled: 1
     path: Assets/_Project/GAME/AndereWebsite/FishWikis/Fish1.unity
     guid: 028a6248810413c4c8c7cb45c3ae08de
   - enabled: 1
