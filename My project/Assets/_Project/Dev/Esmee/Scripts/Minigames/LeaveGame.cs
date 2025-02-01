@@ -12,4 +12,19 @@ public class RetryGame : MonoBehaviour
     {
         SceneManager.LoadScene("StartPage");
     }
+
+    public void GoMain()
+    {
+        SceneManager.LoadScene("AboutUs-ggis");
+    }
+
+    public void Page2()
+    {
+        SceneManager.LoadScene("Page2");
+    }
+
+    public void Page1()
+    {
+        SceneManager.LoadScene("InfectedFish");
+    }
 }
