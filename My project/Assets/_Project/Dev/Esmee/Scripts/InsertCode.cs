@@ -1,10 +1,12 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class InsertCode : MonoBehaviour
 {
     public TMP_InputField input;
     private string answer = "8008";
+    [SerializeField] private AudioSource confirmaudio;
 
     public void CheckAnswer()
     {
@@ -12,8 +14,8 @@ public class InsertCode : MonoBehaviour
 
         if (inputText == answer)
         {
-            Debug.Log("YIPPAY");
-            //loadscene ig
+            SceneManager.LoadScene("locked");
+            confirmaudio.Play();
         }
     }
 }
