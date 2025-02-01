@@ -441,7 +441,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 1884687231}
         m_TargetAssemblyTypeName: OtherSceneOrder, Assembly-CSharp
-        m_MethodName: Scene1
+        m_MethodName: Minigame1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

@@ -1,11 +1,12 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class FishJump : MonoBehaviour
 {
     private Rigidbody2D rb;
     private float jumpForce = 600f;
     private bool isGrounded = true;
-    [SerializeField] private GameObject fishGame;
+    [SerializeField] private GameObject homeButton;
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -30,12 +31,17 @@ public class FishJump : MonoBehaviour
     {
         if (collision.gameObject.tag == "Obstacle")
         {
-            fishGame.SetActive(false);
+            homeButton.SetActive(true);
         }
 
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
         }
+    }
+
+    public void GoBack()
+    {
+        SceneManager.LoadScene("StartPage");
     }
 }

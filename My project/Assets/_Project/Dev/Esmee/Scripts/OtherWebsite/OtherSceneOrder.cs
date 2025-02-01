@@ -7,9 +7,13 @@ public class OtherSceneOrder : MonoBehaviour
     {
         SceneManager.LoadScene("FishPage");
     }
-    public void Scene1()
+    public void Minigame1()
     {
-        SceneManager.LoadScene("MiniGames");
+        SceneManager.LoadScene("FishGame");
+    }
+    public void Minigame2()
+    {
+        SceneManager.LoadScene("FloppyFish");
     }
     public void Scene2()
     {

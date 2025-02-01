@@ -35,4 +35,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/GAME/AndereWebsite/StartPage.unity
     guid: cf1a8f41b9566ea4abd0e5b4695b386e
+  - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/FishPage.unity
+    guid: 903c13214072d1c43ad2db753a899c63
+  - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/FishGame.unity
+    guid: 1cb20db294a83934b9d7c9f50dec42d4
   m_configObjects: {}
