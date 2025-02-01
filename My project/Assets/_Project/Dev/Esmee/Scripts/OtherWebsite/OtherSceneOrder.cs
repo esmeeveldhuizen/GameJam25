@@ -11,4 +11,24 @@ public class OtherSceneOrder : MonoBehaviour
     {
         SceneManager.LoadScene("FishGame");
     }
+    public void Scene2()
+    {
+        SceneManager.LoadScene("Fish1");
+    }
+    public void Scene3()
+    {
+        SceneManager.LoadScene("Fish2");
+    }
+    public void Scene4()
+    {
+        SceneManager.LoadScene("Fish3");
+    }
+    public void Scene5()
+    {
+        SceneManager.LoadScene("Fish4");
+    }
+    public void Scene6()
+    {
+        SceneManager.LoadScene("Fish5");
+    }
 }
