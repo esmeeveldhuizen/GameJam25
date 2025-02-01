@@ -9,21 +9,21 @@ EditorBuildSettings:
     path: Assets/_Project/GAME/AboutUs.unity
     guid: 59e8e74abcb102f43a961768a281af26
   - enabled: 1
-    path: Assets/_Project/GAME/AboutUs-ggis.unity
+    path: Assets/_Project/GAME/MainWebsite/AboutUs-ggis.unity
     guid: 913bb96c5bfdcd34b974eb9476f2a3d9
   - enabled: 1
-    path: Assets/_Project/GAME/AquaHistory.unity
+    path: Assets/_Project/GAME/MainWebsite/AquaHistory.unity
     guid: cd7d241283e3e804f9ddf03d527d7e33
   - enabled: 1
-    path: Assets/_Project/GAME/Blogs.unity
+    path: Assets/_Project/GAME/MainWebsite/Blogs.unity
     guid: 0bfe8dabb653d2d458ca76d6e6dc4559
   - enabled: 1
-    path: Assets/_Project/GAME/GeneralQuestions.unity
+    path: Assets/_Project/GAME/MainWebsite/GeneralQuestions.unity
     guid: cee53eaf9a11b9b4e895572f31f06129
   - enabled: 1
-    path: Assets/_Project/GAME/Photos-1.unity
+    path: Assets/_Project/GAME/MainWebsite/Photos-1.unity
     guid: 583c91f1bf409ec4db1c16f6f661335d
   - enabled: 1
-    path: Assets/_Project/GAME/Photos-2.unity
+    path: Assets/_Project/GAME/MainWebsite/Photos-2.unity
     guid: 1d813fb310a711747aea1290d532546f
   m_configObjects: {}

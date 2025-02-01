@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class InsertCode : MonoBehaviour
 {
     public TMP_InputField input;
-    private string answer = "8008";
+    private string answer = "mrbubble";
     [SerializeField] private AudioSource confirmaudio;
 
     public void CheckAnswer()
