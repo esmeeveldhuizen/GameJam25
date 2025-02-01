@@ -939,7 +939,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1026857757}
         m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
         m_MethodName: ExitGame
         m_Mode: 1
@@ -1159,6 +1159,7 @@ GameObject:
   - component: {fileID: 1026857755}
   - component: {fileID: 1026857754}
   - component: {fileID: 1026857756}
+  - component: {fileID: 1026857757}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1243,11 +1244,11 @@ RectTransform:
   m_Children:
   - {fileID: 694928084}
   - {fileID: 1200166560}
-  - {fileID: 754822182}
   - {fileID: 868985086}
   - {fileID: 869996694}
   - {fileID: 442271171}
   - {fileID: 1625724003}
+  - {fileID: 754822182}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1375,6 +1376,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9ab57b95658055b4f9b256803c42fb43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1026857757
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1026857746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc66e45fe53a48e4c894d1dbd5a7260f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1200166559
