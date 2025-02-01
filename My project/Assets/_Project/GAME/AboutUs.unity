@@ -414,9 +414,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ButtonPressed
+      - m_Target: {fileID: 1432096843}
+        m_TargetAssemblyTypeName: SceneOrder, Assembly-CSharp
+        m_MethodName: Scene2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -547,9 +547,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ButtonPressed
+      - m_Target: {fileID: 1432096843}
+        m_TargetAssemblyTypeName: SceneOrder, Assembly-CSharp
+        m_MethodName: Scene0
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -680,9 +680,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ButtonPressed
+      - m_Target: {fileID: 1432096843}
+        m_TargetAssemblyTypeName: SceneOrder, Assembly-CSharp
+        m_MethodName: Scene5
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -862,7 +862,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Photos
+  m_text: Photos 1
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c92a47edcce53459e77febc1d3d8f1, type: 2}
   m_sharedMaterial: {fileID: 1935764149340499725, guid: f3c92a47edcce53459e77febc1d3d8f1, type: 2}
@@ -1022,9 +1022,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ButtonPressed
+      - m_Target: {fileID: 1432096843}
+        m_TargetAssemblyTypeName: SceneOrder, Assembly-CSharp
+        m_MethodName: Scene0
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1364,9 +1364,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ButtonPressed
+      - m_Target: {fileID: 1432096843}
+        m_TargetAssemblyTypeName: SceneOrder, Assembly-CSharp
+        m_MethodName: Scene3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1497,9 +1497,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ButtonPressed
+      - m_Target: {fileID: 1432096843}
+        m_TargetAssemblyTypeName: SceneOrder, Assembly-CSharp
+        m_MethodName: Scene4
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: About us
+  m_text: Photos 2
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: f3c92a47edcce53459e77febc1d3d8f1, type: 2}
   m_sharedMaterial: {fileID: 1935764149340499725, guid: f3c92a47edcce53459e77febc1d3d8f1, type: 2}
@@ -1832,9 +1832,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ButtonPressed
+      - m_Target: {fileID: 1432096843}
+        m_TargetAssemblyTypeName: SceneOrder, Assembly-CSharp
+        m_MethodName: Scene0
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1895,6 +1895,7 @@ GameObject:
   - component: {fileID: 1432096839}
   - component: {fileID: 1432096838}
   - component: {fileID: 1432096842}
+  - component: {fileID: 1432096843}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -2008,6 +2009,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc66e45fe53a48e4c894d1dbd5a7260f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1432096843
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1432096837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb5b72269cf10b046ba2973d0eff271c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1644900874
@@ -2227,9 +2240,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_TargetAssemblyTypeName: Buttons, Assembly-CSharp
-        m_MethodName: ButtonPressed
+      - m_Target: {fileID: 1432096843}
+        m_TargetAssemblyTypeName: SceneOrder, Assembly-CSharp
+        m_MethodName: Scene1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
