@@ -9,7 +9,7 @@ public class OtherSceneOrder : MonoBehaviour
     }
     public void Scene1()
     {
-        SceneManager.LoadScene("FishGame");
+        SceneManager.LoadScene("MiniGames");
     }
     public void Scene2()
     {

@@ -379,6 +379,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: floppyFish
       objectReference: {fileID: 0}
+    - target: {fileID: 3684280847024309609, guid: 8f303ed363ad893408b6527ed7c08f44, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

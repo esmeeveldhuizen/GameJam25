@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/_Project/GAME/AboutUs.unity
     guid: 59e8e74abcb102f43a961768a281af26
   - enabled: 1
@@ -23,6 +23,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Project/GAME/MainWebsite/Photos-1.unity
     guid: 583c91f1bf409ec4db1c16f6f661335d
+  - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/StartPage.unity
+    guid: cf1a8f41b9566ea4abd0e5b4695b386e
+  - enabled: 1
+    path: Assets/_Project/GAME/AndereWebsite/Minigames.unity
+    guid: 1cb20db294a83934b9d7c9f50dec42d4
   - enabled: 1
     path: Assets/_Project/GAME/MainWebsite/Photos-2.unity
     guid: 1d813fb310a711747aea1290d532546f
