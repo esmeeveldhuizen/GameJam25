@@ -6,27 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/_Project/Dev/Esmee/Scenes/Welcome.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/_Project/GAME/AboutUs.unity
+    guid: 59e8e74abcb102f43a961768a281af26
   - enabled: 1
-    path: Assets/_Project/Dev/Matt/Scene's/Scene3.unity
-    guid: 37e11e22dd4a8db41b22cf8f8afc15f1
+    path: Assets/_Project/GAME/AboutUs-ggis.unity
+    guid: 913bb96c5bfdcd34b974eb9476f2a3d9
   - enabled: 1
-    path: Assets/_Project/Dev/Matt/Scene's/Scene1.unity
-    guid: 4c606c41a3ed414438da3e5761800329
+    path: Assets/_Project/GAME/AquaHistory.unity
+    guid: cd7d241283e3e804f9ddf03d527d7e33
   - enabled: 1
-    path: Assets/_Project/Dev/Matt/Scene's/Scene2.unity
-    guid: 8fd17b599af3d0f44a043e4884fc11fd
+    path: Assets/_Project/GAME/Blogs.unity
+    guid: 0bfe8dabb653d2d458ca76d6e6dc4559
   - enabled: 1
-    path: Assets/_Project/Dev/Matt/Scene's/Scene4.unity
-    guid: 46cba210f4a3caa43ad53ca5f8ae8e21
+    path: Assets/_Project/GAME/GeneralQuestions.unity
+    guid: cee53eaf9a11b9b4e895572f31f06129
   - enabled: 1
-    path: Assets/_Project/Dev/Matt/Scene's/Scene5.unity
-    guid: 9abac2c813bc06042a05c289eee4d728
+    path: Assets/_Project/GAME/Photos-1.unity
+    guid: 583c91f1bf409ec4db1c16f6f661335d
   - enabled: 1
-    path: Assets/_Project/Dev/Matt/Scene's/Scene2-1.unity
-    guid: 3d0e72300582a674cb765fcd2f961616
-  - enabled: 1
-    path: Assets/_Project/Dev/Matt/Scene's/Scene2-1-1.unity
-    guid: ce978bfe6f3f64d459279dc2cb6935f4
+    path: Assets/_Project/GAME/Photos-2.unity
+    guid: 1d813fb310a711747aea1290d532546f
   m_configObjects: {}

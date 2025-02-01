@@ -7,7 +7,7 @@ public class SceneOrder : MonoBehaviour
 
     public void Scene0()
     {
-        SceneManager.LoadScene("AboutUs");
+        SceneManager.LoadScene("AboutUs-ggis");
     }
     public void Scene1()
     {
@@ -29,6 +29,13 @@ public class SceneOrder : MonoBehaviour
     {
         SceneManager.LoadScene("Photos-2");
     }
-
+    public void Scene6()
+    {
+        SceneManager.LoadScene("Comments");
+    }
+    public void Scene7()
+    {
+        SceneManager.LoadScene("Locked");
+    }
 
 }
