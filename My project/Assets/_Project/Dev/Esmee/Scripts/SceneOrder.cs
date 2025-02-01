@@ -51,5 +51,10 @@ public class SceneOrder : MonoBehaviour
         SceneManager.LoadScene("InfectedFish");
         clickAudio.Play();
     }
+    public void Scene9()
+    {
+        SceneManager.LoadScene("StartPage");
+        clickAudio.Play();
+    }
 
 }

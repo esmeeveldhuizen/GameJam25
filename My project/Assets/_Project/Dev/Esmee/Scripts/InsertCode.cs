@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 public class InsertCode : MonoBehaviour
 {
     public TMP_InputField input;
-    private string answer = "mrbubble";
+    private string answer = "mrbubbles";
     [SerializeField] private AudioSource confirmaudio;
 
     public void CheckAnswer()
@@ -14,7 +14,7 @@ public class InsertCode : MonoBehaviour
 
         if (inputText == answer)
         {
-            SceneManager.LoadScene("locked");
+            SceneManager.LoadScene("InfectedFish");
             confirmaudio.Play();
         }
     }
