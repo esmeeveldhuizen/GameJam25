@@ -8,18 +8,18 @@ public class SceneOrder : MonoBehaviour
 
     public void Scene0()
     {
-        SceneManager.LoadScene("AboutUs-ggis");
         clickAudio.Play();
+        SceneManager.LoadScene("AboutUs-ggis");
     }
     public void Scene1()
     {
-        SceneManager.LoadScene("GeneralQuestions");
         clickAudio.Play();
+        SceneManager.LoadScene("GeneralQuestions");
     }
     public void Scene2()
     {
-        SceneManager.LoadScene("AquaHistory");
         clickAudio.Play();
+        SceneManager.LoadScene("AquaHistory");
     }
     public void Scene3()
     {
